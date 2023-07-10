@@ -1,5 +1,6 @@
 # uzd
 
+```js
 susikuriam practice.js
 
 1. pakeisti h1 antrastes texta 'Dynamic Heading' (.textContent = )
@@ -8,11 +9,11 @@ susikuriam practice.js
 
 3. <p id="art__text">Lorem ipsum dolor</p> gauti ir atspausdinti konsolelje sito elemento teksta
 
-4. atvaizduoti konsoleje kolekcija arba nodelist is <ul class="colors"> elemento li elementu.
+4. atvaizduoti konsoleje kolekcija arba nodelist is "/<ul class="colors"></ul> elemento li elementu.
 
 5. nusitaikyti ir pakeisti teksta <p id="art__date">Date</p> i siandienos data
 
-6. pakeisti paskutinio <ul class="colors"> elemento spalva i tomato
+6. pakeisti paskutinio <ul class="colors"></ul> elemento spalva i tomato
 
 7. istrinti <li class="listEl deleteMe">one</li> nusitaikiusi tevini ul elementa (el.remove() - istrina)
 
@@ -34,3 +35,4 @@ Ciklai, kurimas
 2. sukurti cikla kuris dides nuo 4 iki 10. ciklo metu kurti li elementus su reiksme "index 4", "index 5", "index 6" ir t.t. ir talpinti juos musu skaiciu sarase
 
 3. Write a function that takes two arrays of equal length as input and returns a new array with the corresponding elements from each array added together. For example, if the two input arrays are [1, 2, 3] and [4, 5, 6], the output array should be [5, 7, 9]. Use a for loop to iterate over the arrays.
+```
