@@ -8,12 +8,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css"
     integrity="sha512-xiunq9hpKsIcz42zt0o2vCo34xV0j6Ny8hgEylN3XBglZDtTZ2nwnqF/Z/TTCc18sGdvCjbFInNd++6q3J0N6g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="js/getElements.js" defer></script>
+  <!-- <script src="js/getElements.js" defer></script> -->
+  <script src="js/events.js" defer></script>
 </head>
 
 <body>
 
   <h1 id="mainTitle">Main title</h1>
+  <button id="btn1" class="button">Change title</button>
 
   <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, itaque.</p>
 
@@ -23,9 +25,16 @@
   </article>
 
   <ul id="list">
-    <li class="listEl">One</li>
-    <li class="listEl">Two</li>
-    <li class="listEl">Three</li>
+    <li class="listEl">
+      <span>One</span>
+      <button class="button">Mark</button>
+    </li>
+    <li class="listEl"><span>Two</span>
+      <button class="button">Mark</button>
+    </li>
+    <li class="listEl"><span>Three</span>
+      <button class="button">Mark</button>
+    </li>
   </ul>
 
 </body>
