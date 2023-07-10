@@ -25,3 +25,6 @@ function addPEl() {
   // patalpinti ji paraDivEl (apend)
   paraDivEl.append(pEl);
 }
+
+// <button id="addColor" paspaudimu
+// prideti nauja spalva i spalvu ul
