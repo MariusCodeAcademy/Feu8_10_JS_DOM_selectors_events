@@ -30,5 +30,26 @@ btn1El.addEventListener('mouseleave', () => {
 });
 
 // <h2 class="articleTitle">This is title</h2>
+const artTitleEl = document.querySelector('.articleTitle');
+console.log('artTitleEl ===', artTitleEl);
 // kai paspaudziam ant h2 elemento pakeisti jo
-// texta didziosiom raidem
+artTitleEl.addEventListener('click', () => {
+  console.log('pavyko');
+  // texta didziosiom raidem
+  artTitleEl.style.textTransform = 'uppercase';
+  // prideti article el border
+  const artEl = artTitleEl.parentElement;
+  console.log('artEl ===', artEl);
+  artEl.style.border = '1px solid tomato';
+});
+
+// istrinti li el kai paspaudziam x
+
+const delBtn1 = document.getElementById('del1');
+console.log('delBtn1 ===', delBtn1);
+
+delBtn1.addEventListener('click', (event) => {
+  const liEl = delBtn1.parentElement;
+  console.log('liEl ===', liEl);
+  liEl.remove();
+});
