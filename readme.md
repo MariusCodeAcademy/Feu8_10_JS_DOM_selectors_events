@@ -14,16 +14,18 @@ susikuriam practice.js
 
 6. pakeisti paskutinio <ul class="colors"> elemento spalva i tomato
 
-7. <p id="art__text">Lorem ipsum dolor</p> elemento texta padaryti didziosiomis raidemis, ne su css.
+7. istrinti <li class="listEl deleteMe">one</li> nusitaikiusi tevini ul elementa (el.remove() - istrina)
+
+8. <p id="art__text">Lorem ipsum dolor</p> elemento texta padaryti didziosiomis raidemis, ne su css.
    7.1 <p id="art__text">Lorem ipsum dolor</p> elemento texta surasyti is priesingos puses
 
-8. prideti kiekvienam colors saraso elementui texta ' added'
+9. prideti kiekvienam colors saraso elementui texta ' added'
 
-9. (uzsikomentuoti [8] uzd vygdyma) padaryti kad kiekvieno colors saraso li elemento fono spalva butu tokia kaip parasyta li texte
+10. (uzsikomentuoti [8] uzd vygdyma) padaryti kad kiekvieno colors saraso li elemento fono spalva butu tokia kaip parasyta li texte
 
-10. paimti visas colors elemento spalvas is li teksto, surasyti i viena stringa ir iterpti kaip paskutini li elementa su visu spalvu sarasu atskirtu kableliais
+11. paimti visas colors elemento spalvas is li teksto, surasyti i viena stringa ir iterpti kaip paskutini li elementa su visu spalvu sarasu atskirtu kableliais
 
-11. <button id="onOff">turn the dark mode off </button> paspaudus mygtuka jis keicia savo teksto zodeli off i on ir atvirksciai
+12. <button id="onOff">turn the dark mode off </button> paspaudus mygtuka jis keicia savo teksto zodeli off i on ir atvirksciai
 
 Ciklai, kurimas
 
