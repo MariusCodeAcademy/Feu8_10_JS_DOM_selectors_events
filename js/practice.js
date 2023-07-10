@@ -27,4 +27,13 @@ function addPEl() {
 }
 
 // <button id="addColor" paspaudimu
+const addColorBtnEl = document.getElementById('addColor');
+const colorsUlEl = document.getElementById('colors');
+console.log('colorsUlEl ===', colorsUlEl);
+console.log('addColorBtnEl ===', addColorBtnEl);
 // prideti nauja spalva i spalvu ul
+addColorBtnEl.addEventListener('click', () => {
+  const liEl = document.createElement('li');
+  liEl.textContent = 'Tomato';
+  colorsUlEl.append(liEl);
+});
